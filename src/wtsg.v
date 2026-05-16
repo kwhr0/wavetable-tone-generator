@@ -3,7 +3,7 @@
 
 // MIT License
 
-module wtg(clk, wr, adr, data, snd_l, snd_r);
+module wtsg(clk, wr, adr, data, snd_l, snd_r);
 input clk, wr;
 input [7:0] adr;
 input [15:0] data;
