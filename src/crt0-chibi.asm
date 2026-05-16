@@ -43,7 +43,6 @@ _exit:
 	.export	_interruptCount
 	.export	_interruptHandle
 interrupt:
-;	.byte	1,1,1
 	inc	_interruptCount
 	rti
 

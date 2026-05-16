@@ -1,5 +1,4 @@
 #include "base.h"
-#include <stddef.h>
 
 u8 keydown(void) {
 	if (rx_valid()) {
